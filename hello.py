@@ -13,4 +13,4 @@ class TextProcessor:
 # Chain methods on object
 processor = TextProcessor(text="  Hello, World.  ")
 result = processor.clean().remove_punctuation().text
-print(result)
+print(result.lower())
